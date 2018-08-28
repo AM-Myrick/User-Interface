@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 876px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navigation {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	margin: 0 auto;
+	width: 876px;
+  
+}
+.navigation .logo {
+	padding-left: 250px;
+	
+}
+.navigation a {
+	color: gray;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.header {
+	position: relative;
+	display: inline-block;
+	width: 876px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.header h1 {
+	position: absolute;
+	padding-top: 100px;
+	font-size: 83px;
+	text-align: center;
+	left: 175px;
+}
+
+.header button {
+	background-color: white;
+    border: 1px solid black;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: absolute;
+	left: 266px;
+	bottom: 101px;
+}
+
+.header img {
+	position: absolute;
+	top: 50px;
+	right: -130px;
+	/* padding-left: 620px;
+	padding-bottom: 10px; */
+}
+
+hr {
+	width: 876px;
+	margin-top: 20px;
+}
+
+.top-content {
+	width: 876px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.top-left {
+	width: 50%;
+	position: absolute;
+}
+
+.top-right {
+	width: 50%;
+	margin-left: 438px;
+	padding-left: 5px;
+	position: absolute;
+}
+
+.mid-content {
+	width: 876px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.bottom-content {
+	width: 876px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 60px
+}
+
+.bottom-left {
+	width: 33%;
+	position: absolute;
+}
+
+.bottom-mid {
+	width: 33%;
+	margin-left: 292px;
+	position: absolute;
+}
+
+.bottom-right {
+	width: 33%;
+	margin-left: 584px;
+	position: absolute;
+}
+
+.contact {
+	width: 876px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.contact-left {
+	position: absolute;
+}
+
+.copyright {
+	width: 876px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.copyright p {
+	position: absolute;
+	margin-left: 336px;
+}
