@@ -89,13 +89,19 @@ h1, h2, h3, h4, h5 {
 	margin: 0 10px;
 }
 
-.header {
+.header-container {
+	width: 876px;
+	height: 500px;
+	margin: 0 auto;
 	position: relative;
+}
+
+.header {
+	position: absolute;
 	display: inline-block;
 	width: 876px;
 	height: 500px;
 	margin: 0 auto;
-	margin-left: 280px;
 }
 
 .header h1 {
@@ -103,7 +109,7 @@ h1, h2, h3, h4, h5 {
 	padding-top: 100px;
 	font-size: 83px;
 	text-align: center;
-	left: 175px;
+	left: 50px;
 }
 
 .header button {
@@ -115,16 +121,17 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
     font-size: 16px;
 	position: absolute;
-	left: 266px;
+	left: 140px;
 	bottom: 101px;
 }
 
 .header img {
 	position: absolute;
 	top: 50px;
-	right: -130px;
+	right: 0px;
 	/* padding-left: 620px;
 	padding-bottom: 10px; */
+	
 }
 
 hr {
@@ -163,7 +170,7 @@ hr {
 	height: 100px;
 	margin: 0 auto;
 	position: relative;
-	margin-bottom: 60px
+	margin-bottom: 60px;
 }
 
 .bottom-left {
